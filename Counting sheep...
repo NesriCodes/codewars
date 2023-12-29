@@ -1,0 +1,13 @@
+solution
+
+def count_sheeps(arrayOfSheeps):
+  return arrayOfSheeps.count(True)
+
+another solution using for loop
+
+def count_sheeps(sheep):
+    count = 0
+    for s in sheep:
+        if s:
+            count+=1
+    return count
