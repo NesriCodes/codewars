@@ -1,0 +1,4 @@
+def xo(s):
+    x = [x for x in s.lower() if x == 'x']
+    o = [o for o in s.lower() if o == 'o']
+    return True if len(x) == len(o) else False
